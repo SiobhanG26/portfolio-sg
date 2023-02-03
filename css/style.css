@@ -28,6 +28,7 @@ h3 {
 }
 h4 {
   font-size: 48px;
+  font-family: var(--heading-font-family);
 }
 p {
   font-size: 16px;
@@ -38,10 +39,10 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -172,9 +173,7 @@ footer .contact-box p {
     font-size: 44px;
     line-height: 2;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;
